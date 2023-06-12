@@ -29,6 +29,22 @@
 			<version>${selenium.version}</version>
 		</dependency>
 	</dependencies>
+	<developers>
+        <developer>
+            <name>Zain Wani</name>
+            <email>zain.wani@telusinternational.com</email>
+            <organization>com.github.x228199</organization>
+            <organizationUrl>https://github.com/x228199/com.sample.package</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/x228199/com.sample.package.git</connection>
+        <developerConnection>scm:git:https://github.com/x228199/com.sample.package.git
+        </developerConnection>
+        <url>https://github.com/x228199/com.sample.package</url>
+        <tag>github-example-package</tag>
+    </scm>
 	<build>
 		<pluginManagement>
 			<plugins>
