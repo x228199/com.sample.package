@@ -19,7 +19,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub x228199 Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/x228199/com.sample.package</url>
+			<url>https://maven.pkg.github.com/x228199/m3repo</url>
 		</repository>
 	</distributionManagement>
 	<dependencies>
@@ -34,7 +34,7 @@
             <name>Zain Wani</name>
             <email>zain.wani@telusinternational.com</email>
             <organization>com.github.x228199</organization>
-            <organizationUrl>https://github.com/x228199/com.sample.package</organizationUrl>
+            <organizationUrl>https://github.com/x228199/m3repo</organizationUrl>
         </developer>
     </developers>
 
