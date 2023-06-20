@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sample.package</groupId>
 	<artifactId>com.sample.package</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>package-project</name>
 	<packaging>jar</packaging>
 	<properties>
@@ -43,7 +43,7 @@
         <developerConnection>scm:git:https://github.com/x228199/com.sample.package.git
         </developerConnection>
         <url>https://github.com/x228199/com.sample.package</url>
-        <tag>com.sample.package-1.0</tag>
+        <tag>com.sample.package</tag>
     </scm>
 	<build>
 		<pluginManagement>
