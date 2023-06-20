@@ -43,7 +43,7 @@
         <developerConnection>scm:git:https://github.com/x228199/com.sample.package.git
         </developerConnection>
         <url>https://github.com/x228199/com.sample.package</url>
-        <tag>github-example-package</tag>
+        <tag>com.sample.package</tag>
     </scm>
 	<build>
 		<pluginManagement>

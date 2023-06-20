@@ -18,5 +18,6 @@ public class CustomUtils {
 		String serialNumber = ""+num1 + num2 +num5 ;
 	
 		return serialNumber;
+		
 	}
 }
