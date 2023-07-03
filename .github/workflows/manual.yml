@@ -11,7 +11,6 @@ jobs:
       - name: Any Name Bash Test Step
         shell: bash
         run: |
-          echo "$GITHUB_ACTOR"
           echo "$GITHUB_TOKEN"
           env:
-            GITHUB_TOKEN: ${{ secrets[format('TOKEN_{0}', env.GITHUB_ACTOR)] }}
+            GITHUB_TOKEN: ${{ secrets[format('TOKEN_{0}', $GITHUB_ACTOR)] }}
