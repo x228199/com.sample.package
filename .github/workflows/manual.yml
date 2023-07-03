@@ -11,4 +11,4 @@ jobs:
       - name: Any Name Bash Test Step
         shell: bash
         run: |
-          echo env.GITHUB_ACTOR
+          echo "$GITHUB_ACTOR"
