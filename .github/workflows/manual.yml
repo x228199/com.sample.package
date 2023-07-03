@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 env:
   GITHUB_ACTOR: ${{ github.actor }}
+  GITHUB_TOKEN: ${{ secrets[format('TOKEN_{0}', env.GITHUB_ACTOR)] }}
 jobs:
   print_properties:
     runs-on: ubuntu-latest
@@ -12,5 +13,3 @@ jobs:
         shell: bash
         run: |
           echo "$GITHUB_TOKEN"
-          env:
-            GITHUB_TOKEN: ${{ secrets[format('TOKEN_{0}', env.GITHUB_ACTOR)] }}
